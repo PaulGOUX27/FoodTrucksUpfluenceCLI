@@ -45,7 +45,7 @@ for option, argument in options :
 		limit = int(argument)
 	if option in ('--help'):
 		usage()
-		sys.exit(2)
+		sys.exit(1)
 
 if 'latitude' not in locals() or 'longitude' not in locals() :
 	error("You must use --latitude and --longitude")
