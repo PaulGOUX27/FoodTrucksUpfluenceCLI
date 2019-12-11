@@ -13,7 +13,7 @@ You might probably have to install `requests` :
 CLI is located in `src` directory.
 Upon in this directory, to see entire help, type :
 
-        python3 foodTruckUpfluenceCLI.py --help
+    python3 foodTruckUpfluenceCLI.py --help
 
 ## More Informations
 This CLI retreive parameters using `getopt`, verify them and send an HTTP request using `requests` to the API server (at `localhost:8080`).
